@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Dashboard Penyewaan Sepeda")
 
-data = pd.read_csv('main_data.csv')
+data = pd.read_csv('/dashboard/main_data.csv')
 
 st.header("Data Penyewaan Sepeda")
 st.write("Menampilkan 5 baris pertama dari dataset:")
